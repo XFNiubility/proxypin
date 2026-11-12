@@ -2350,6 +2350,12 @@ abstract class AppLocalizations {
   /// **'AFDIAN'**
   String get sponsorAfdian;
 
+  /// No description provided for @privacy.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy'**
+  String get privacy;
+
   /// No description provided for @privacyPolicy.
   ///
   /// In en, this message translates to:
@@ -2614,6 +2620,18 @@ abstract class AppLocalizations {
   /// **'MCP Endpoint'**
   String get mcpEndpoint;
 
+  /// No description provided for @mcpListenAddress.
+  ///
+  /// In en, this message translates to:
+  /// **'Listen address'**
+  String get mcpListenAddress;
+
+  /// No description provided for @mcpListenAddressDescribe.
+  ///
+  /// In en, this message translates to:
+  /// **'127.0.0.1 allows only clients on this device; 0.0.0.0 allows clients on this device and the local network.'**
+  String get mcpListenAddressDescribe;
+
   /// No description provided for @mcpPortInvalid.
   ///
   /// In en, this message translates to:
@@ -2751,18 +2769,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'This client does not support auto setup, configure it manually.'**
   String get mcpUnsupported;
-
-  /// No description provided for @mcpCopy.
-  ///
-  /// In en, this message translates to:
-  /// **'Copy'**
-  String get mcpCopy;
-
-  /// No description provided for @mcpCopied.
-  ///
-  /// In en, this message translates to:
-  /// **'Copied'**
-  String get mcpCopied;
 
   /// No description provided for @mcpStartFailed.
   ///

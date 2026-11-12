@@ -1162,6 +1162,9 @@ class AppLocalizationsPt extends AppLocalizations {
   String get sponsorAfdian => 'AFDIAN';
 
   @override
+  String get privacy => 'Privacy';
+
+  @override
   String get privacyPolicy => 'Privacy Policy';
 
   @override
@@ -1299,6 +1302,13 @@ class AppLocalizationsPt extends AppLocalizations {
   String get mcpEndpoint => 'MCP Endpoint';
 
   @override
+  String get mcpListenAddress => 'Listen address';
+
+  @override
+  String get mcpListenAddressDescribe =>
+      '127.0.0.1 allows only clients on this device; 0.0.0.0 allows clients on this device and the local network.';
+
+  @override
   String get mcpPortInvalid => 'Please enter a valid port between 1024 and 65535';
 
   @override
@@ -1372,12 +1382,6 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get mcpUnsupported => 'This client does not support auto setup, configure it manually.';
-
-  @override
-  String get mcpCopy => 'Copy';
-
-  @override
-  String get mcpCopied => 'Copied';
 
   @override
   String get mcpStartFailed => 'MCP service failed to start';
@@ -2286,6 +2290,10 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get weakNetworkRules => 'Regras de URL';
+
+  @override
+  String get mcpServiceDescribe =>
+      'Inicia um servidor HTTP local para a comunicação do Model Context Protocol (MCP) com ferramentas de IA como o Claude.';
 
   @override
   String get replayTasks => 'Tarefas de repetição';

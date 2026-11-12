@@ -1150,6 +1150,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get sponsorAfdian => '爱发电赞助';
 
   @override
+  String get privacy => '隐私';
+
+  @override
   String get privacyPolicy => '隐私协议';
 
   @override
@@ -1286,6 +1289,12 @@ class AppLocalizationsZh extends AppLocalizations {
   String get mcpEndpoint => 'MCP 服务地址';
 
   @override
+  String get mcpListenAddress => '监听地址';
+
+  @override
+  String get mcpListenAddressDescribe => '127.0.0.1 仅允许本设备连接；0.0.0.0 允许本设备及局域网内的客户端连接。';
+
+  @override
   String get mcpPortInvalid => '请输入 1024-65535 之间的有效端口';
 
   @override
@@ -1357,12 +1366,6 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get mcpUnsupported => '该客户端不支持一键配置，请手动配置。';
-
-  @override
-  String get mcpCopy => '复制';
-
-  @override
-  String get mcpCopied => '已复制';
 
   @override
   String get mcpStartFailed => 'MCP 服务启动失败';
@@ -2634,6 +2637,9 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get weakNetworkRules => 'URL 規則';
+
+  @override
+  String get mcpServiceDescribe => '啟動本機 HTTP 伺服器，讓 Model Context Protocol (MCP) 與 Claude 等 AI 工具通訊。';
 
   @override
   String get statusRunning => '執行中';
