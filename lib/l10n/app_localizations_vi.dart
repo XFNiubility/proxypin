@@ -135,6 +135,9 @@ class AppLocalizationsVi extends AppLocalizations {
   String get themeDark => 'Tối';
 
   @override
+  String get amoledBlack => 'Đen AMOLED';
+
+  @override
   String get language => 'Ngôn ngữ';
 
   @override
@@ -481,6 +484,14 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get select => 'Chọn';
+
+  @override
+  String get selectAll => 'Chọn tất cả';
+
+  @override
+  String selectedItems(int count) {
+    return 'Đã chọn $count mục';
+  }
 
   @override
   String get copy => 'Sao chép';
@@ -1307,6 +1318,13 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get mcpAccessToken => 'Access Token';
+
+  @override
+  String get mcpAuthEnabled => 'Yêu cầu mã truy cập';
+
+  @override
+  String get mcpAuthEnabledDescribe =>
+      'When disabled, clients can connect without credentials. Disable only on a trusted device or network.';
 
   @override
   String get mcpLanGuide =>

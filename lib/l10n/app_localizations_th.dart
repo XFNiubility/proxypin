@@ -135,6 +135,9 @@ class AppLocalizationsTh extends AppLocalizations {
   String get themeDark => 'มืด';
 
   @override
+  String get amoledBlack => 'สีดำ AMOLED';
+
+  @override
   String get language => 'ภาษา';
 
   @override
@@ -481,6 +484,14 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get select => 'เลือก';
+
+  @override
+  String get selectAll => 'เลือกทั้งหมด';
+
+  @override
+  String selectedItems(int count) {
+    return 'เลือกแล้ว $count รายการ';
+  }
 
   @override
   String get copy => 'คัดลอก';
@@ -1307,6 +1318,13 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get mcpAccessToken => 'Access Token';
+
+  @override
+  String get mcpAuthEnabled => 'ต้องใช้โทเค็นการเข้าถึง';
+
+  @override
+  String get mcpAuthEnabledDescribe =>
+      'When disabled, clients can connect without credentials. Disable only on a trusted device or network.';
 
   @override
   String get mcpLanGuide =>

@@ -135,6 +135,9 @@ class AppLocalizationsEs extends AppLocalizations {
   String get themeDark => 'Oscuro';
 
   @override
+  String get amoledBlack => 'Negro AMOLED';
+
+  @override
   String get language => 'Idioma';
 
   @override
@@ -481,6 +484,14 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get select => 'Seleccionar';
+
+  @override
+  String get selectAll => 'Seleccionar todo';
+
+  @override
+  String selectedItems(int count) {
+    return '$count seleccionados';
+  }
 
   @override
   String get copy => 'Copiar';
@@ -1308,6 +1319,13 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get mcpAccessToken => 'Access Token';
+
+  @override
+  String get mcpAuthEnabled => 'Requerir token de acceso';
+
+  @override
+  String get mcpAuthEnabledDescribe =>
+      'When disabled, clients can connect without credentials. Disable only on a trusted device or network.';
 
   @override
   String get mcpLanGuide =>

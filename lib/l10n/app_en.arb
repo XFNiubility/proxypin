@@ -41,6 +41,7 @@
   "themeColor": "Theme Color",
   "themeLight": "Light",
   "themeDark": "Dark",
+  "amoledBlack": "AMOLED Black",
   "language": "Language",
   "autoStartup": "Auto Start Recording Traffic",
   "autoStartupDescribe": "Automatically start recording traffic when the program starts",
@@ -155,6 +156,15 @@
   "domainListSubtitle": "Last Request Time: {time},  Count: {count}",
   "selectAction": "Select action",
   "select": "Select",
+  "selectAll": "Select All",
+  "selectedItems": "{count} selected",
+  "@selectedItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "copy": "Copy",
   "copyHost": "Copy Host",
   "copyUrl": "Copy URL",
@@ -439,6 +449,8 @@
   "mcpListenAddressDescribe": "127.0.0.1 allows only clients on this device; 0.0.0.0 allows clients on this device and the local network.",
   "mcpPortInvalid": "Please enter a valid port between 1024 and 65535",
   "mcpAccessToken": "Access Token",
+  "mcpAuthEnabled": "Require access token",
+  "mcpAuthEnabledDescribe": "When disabled, clients can connect without credentials. Disable only on a trusted device or network.",
   "mcpLanGuide": "Keep this phone and your computer on the same Wi-Fi, then run one of the commands below in your computer's terminal, or paste the configuration into your AI client's MCP settings.",
   "mcpLanTokenNote": "The token authorizes full access to the MCP tools. Tap the refresh button next to the token to revoke it and issue a new one.",
   "mcpOtherClients": "Other AI clients",

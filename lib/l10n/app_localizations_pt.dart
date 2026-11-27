@@ -135,6 +135,9 @@ class AppLocalizationsPt extends AppLocalizations {
   String get themeDark => 'Dark';
 
   @override
+  String get amoledBlack => 'AMOLED Black';
+
+  @override
   String get language => 'Português';
 
   @override
@@ -481,6 +484,14 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get select => 'Select';
+
+  @override
+  String get selectAll => 'Select All';
+
+  @override
+  String selectedItems(int count) {
+    return '$count selected';
+  }
 
   @override
   String get copy => 'Copy';
@@ -1315,6 +1326,13 @@ class AppLocalizationsPt extends AppLocalizations {
   String get mcpAccessToken => 'Access Token';
 
   @override
+  String get mcpAuthEnabled => 'Exigir token de acesso';
+
+  @override
+  String get mcpAuthEnabledDescribe =>
+      'When disabled, clients can connect without credentials. Disable only on a trusted device or network.';
+
+  @override
   String get mcpLanGuide =>
       'Keep this phone and your computer on the same Wi-Fi, then run one of the commands below in your computer\'s terminal, or paste the configuration into your AI client\'s MCP settings.';
 
@@ -1607,6 +1625,9 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   String get themeDark => 'Escuro';
 
   @override
+  String get amoledBlack => 'Preto AMOLED';
+
+  @override
   String get language => 'Idioma';
 
   @override
@@ -1840,6 +1861,14 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get select => 'Selecionar';
+
+  @override
+  String get selectAll => 'Selecionar tudo';
+
+  @override
+  String selectedItems(int count) {
+    return '$count selecionados';
+  }
 
   @override
   String get copy => 'Copiar';

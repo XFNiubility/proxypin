@@ -358,6 +358,12 @@ abstract class AppLocalizations {
   /// **'Dark'**
   String get themeDark;
 
+  /// No description provided for @amoledBlack.
+  ///
+  /// In en, this message translates to:
+  /// **'AMOLED Black'**
+  String get amoledBlack;
+
   /// No description provided for @language.
   ///
   /// In en, this message translates to:
@@ -1041,6 +1047,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Select'**
   String get select;
+
+  /// No description provided for @selectAll.
+  ///
+  /// In en, this message translates to:
+  /// **'Select All'**
+  String get selectAll;
+
+  /// No description provided for @selectedItems.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} selected'**
+  String selectedItems(int count);
 
   /// No description provided for @copy.
   ///
@@ -2643,6 +2661,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Access Token'**
   String get mcpAccessToken;
+
+  /// No description provided for @mcpAuthEnabled.
+  ///
+  /// In en, this message translates to:
+  /// **'Require access token'**
+  String get mcpAuthEnabled;
+
+  /// No description provided for @mcpAuthEnabledDescribe.
+  ///
+  /// In en, this message translates to:
+  /// **'When disabled, clients can connect without credentials. Disable only on a trusted device or network.'**
+  String get mcpAuthEnabledDescribe;
 
   /// No description provided for @mcpLanGuide.
   ///
